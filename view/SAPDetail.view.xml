@@ -1,0 +1,51 @@
+<mvc:View
+	controllerName="sap.ui.demo.wt.controller.SAPDetail"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		title="{i18n>sapDetailPageTitle}"
+		showNavButton="true"
+		navButtonPress="onNavBack">
+		<ObjectHeader
+			title="{education>Course}">
+		<attributes>
+		<ObjectAttribute title="{education>Course_date}"/>
+		</attributes>
+		</ObjectHeader>
+			
+	<Table
+		id="SAPCourseList"
+		class="sapUiResponsiveMargin"
+		width="auto"
+		items="{sapEducation>/SAPCourses}">
+		<headerToolbar>
+			<Toolbar>
+				<Title text="{i18n>columnCourses}"/>
+				<ToolbarSpacer/>
+			</Toolbar>
+		</headerToolbar>
+		<columns>
+			<Column
+			responsive="true"
+			fullScreenOptimized="true">
+			<Text text="{i18n>columnCourse}"/>				
+			</Column>
+			<Column
+				hAlign="End">
+				<Text text="{i18n>columnDetails}"/>
+			</Column>			
+		</columns>
+		<items>
+			<ColumnListItem
+			responsive="true"
+			fullScreenOptimized="true">
+				<cells>
+					<ObjectIdentifier text="{sapEducation>courseName}"/>
+					<Link text="{i18n>courseDetails}" tooltip="{i18n>courseDetails.tooltip}" press="onShowDetails" />
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>			
+			
+	</Page>
+</mvc:View>

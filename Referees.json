@@ -1,0 +1,23 @@
+{
+  "Referees": [
+	{
+	  "Name": "Lisa Sheil",
+	  "Address1": "SAP GSC Ireland",
+	  "Address2": "1012-1014 Kingswood Avenue",
+	  "Address3": "Citywest Business campus",
+	  "Address4": "Dublin 24.",
+	  "EmailText": "Lisa.Sheil@sap.com",
+	  "Email": "mailto:Lisa.Sheil@sap.com"		
+	},
+	{
+	  "Name": "Siobhan Evans",
+	  "Address1": "SAP GSC Ireland",
+	  "Address2": "1012-1014 Kingswood Avenue",
+	  "Address3": "Citywest Business campus",
+	  "Address4": "Dublin 24.",
+	  "EmailText": "Siobhan.evans@sap.com",
+	  "Email": "mailto:Siobhan.evans@sap.com"
+	}
+
+  ]
+}

@@ -1,0 +1,36 @@
+{
+	"Educations": [
+		{
+			"Institute": "SAP",
+			"Course": "Various SAP courses",
+			"Course_date": "2005-present",
+			"Result": "All completed successfully",
+			"Languages": "TASU10, TASU20, UE2E10 root cause analysis, USE011 earlywatch, UNA/10 integration training, TZCA08 Integrations workshop, BC100, BC401, BC400, ABAP silver certification, Success Factors performance management, In-Memory Data Management, mandatory compliance training",
+			"Final_Year_Project": ""
+		},
+		{
+			"Institute": "DIT Kevin st",
+			"Course": "BSc(Hons) in Computer Science",
+			"Course_date": "2004-2005",
+			"Result": "First Class Honours",
+			"Languages": "Java, Javascript, Embedded Visual C++, Oracle, SQL, MS Access, JSP, JSF, ASP, HTML",
+			"Final_Year_Project": "Music Transcription & melody Retrieval of traditional music on a PDA"
+		},
+		{
+			"Institute": "DIT Kevin st",
+			"Course": "Diploma in Computer Science",
+			"Course_date": "2002-2004",
+			"Result": "Merit - Upper Division",
+			"Languages": "Java, Javascript, Embedded Visual C++, Oracle, SQL, MS Access, JSP, JSF, ASP, HTML",
+			"Final_Year_Project": "Web Page accessability application"
+		},
+		{
+			"Institute": "Potobello College",
+			"Course": "National Certificate in Computing",
+			"Course_date": "2000-2002",
+			"Result": "Merit - Grade 1",
+			"Languages": "C, Java, Visual Basic, SQL",
+			"Final_Year_Project": "Sales & Stock control system"
+		}
+	]
+}

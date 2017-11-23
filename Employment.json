@@ -1,0 +1,45 @@
+{
+	"Employments": [
+		{
+		"company": "SAP GSC Ireland",
+		"position": "Senior Support Consultant / MM-IV Nexus",
+		"date" : "2005 - present",
+			"keyResponsibilities": [
+									{
+									"keyRes" : "Analyse and resolve customer incidents by means of knowledge databases (SAP Notes, solved customer incidents, documentation) and/or verifying customised entries or hardware parameters"
+									},
+									{
+									"keyRes" : "Analysis and configuration of customer systems through remote access and debugging the coding. Recommendations are then made to development for any corrections to be made."
+									},
+									{
+									"keyRes" : "Maintain and present training material to colleagues in various GSCs globally. This also involves creating test data within internal systems and providing exercises for colleagues to improve their knowledge of the MM-IV area."
+									},
+									{
+									"keyRes" : "Creation of knowledge based articles and WIKIs for customers to reuse information gained from previous issues."
+									},
+									{
+									"keyRes" : "Support of Fiori apps in the materials management component area through providing resolutions in customer incidents and documentation of resolutions through knowledge based articles."
+									},
+									{
+									"keyRes" : "Participation in Success Factors surge 2500 project. This involved helping reduce the number of customer incidents in the Success Factors area of provisioning including issues involving single sign on, file hosting and role based permissions."
+									},
+									{
+									"keyRes" : "Participation in the Indian specific component area during new goods & services tax implementations."
+									},
+									{
+									"keyRes" : "Helping colleagues on more complex customer issues as MM-IV Nexus. This also involves remote calls with colleagues and discussing customer incidents to improve their knowledge of the MM-IV area."
+									},
+									{
+									"keyRes" : "Providing resolutions to critical customer issues as MM-IV nexus. For very high priority incidents or max attention customers, a high level of MM-IV knowledge is required. Remote sessions with customers and guiding them to resolution is provided through phone calls and screen sharing."
+									},
+									{
+									"keyRes" : "Design & development of Invoice Posting Logic supportability tool with ABAP coding. This also involves constant testing and developing improvements of the program on customers’ systems."
+									},
+									{
+									"keyRes" : "Consult with development colleagues on trainings and supportability tool coding."
+									}
+																		
+								]
+		}
+    ]
+}

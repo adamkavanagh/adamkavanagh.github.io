@@ -1,0 +1,45 @@
+<mvc:View
+		controllerName="sap.ui.demo.wt.controller.EmploymentList"
+		xmlns="sap.m"
+		xmlns:mvc="sap.ui.core.mvc">
+	<Table
+		id="EmploymentList"
+		class="sapUiResponsiveMargin"
+		width="auto"
+		items="{ path : 'employment>/Employments'}">
+		<headerToolbar>
+			<Toolbar>
+				<Title text="{i18n>employmentListTitle}"/>
+				<ToolbarSpacer/>
+			</Toolbar>
+		</headerToolbar>
+		<columns>
+			<Column
+				hAlign="Start"
+				minScreenWidth="Small"
+				demandPopin="true"
+				width="20em">
+				<Text text="{i18n>columnCompany}"/>
+			</Column>
+			<Column>
+				<Text text="{i18n>columnDate}"/>
+			</Column>			
+			<Column
+				hAlign="End">
+				<Text text="{i18n>columnPosition}"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem
+				type="Navigation"
+				press="onPress">
+				<cells>
+					<ObjectIdentifier title="{employment>company}"/>
+					<ObjectNumber number="{employment>date}" emphasized="false"/>
+					<ObjectIdentifier title="{employment>position}"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+
+</mvc:View>

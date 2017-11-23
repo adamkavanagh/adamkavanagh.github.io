@@ -1,0 +1,37 @@
+{
+	"SAPCourses": [
+		{
+		"courseName": "In-Memory Data Management",
+		"courseDetails": "Prof. Hasso Plattner's successful introduction into the inner mechanics of this recent technology. The course focuses on the management of enterprise data in column-oriented in-memory databases. Latest hardware and software trends led to the development of a new revolutionary database technology that enables flexible and lightning-fast analysis of massive amounts of enterprise data. The basic concepts and design principles of this technology are explained in detail. Beyond that, the implications of the underlying design principles for future enterprise applications and their development are discussed. The differences and advantages of an in-memory column-oriented database in contrast to traditional row-oriented disk-based storages are explained in detail"
+		},
+		{
+		"courseName": "ABAP silver certification",
+		"courseDetails": "This course provides a deep understanding of the performance of ABAP coding by showing how to use a range of performance tools in the ERP system."
+		},		
+		{
+		"courseName": "TERP10 - Integration Training",
+		"courseDetails": "This course provides an understanding of the integrated logistics and financial processes in SAP ERP, and the use of analytical components such as SAP NetWeaver Business Warehouse. It gives an understanding of how Financial Accounting, Management Accounting, Inventory anagement, Project Management, Enterprise Asset Management, Customer Service, and Human Capital Mangement integrate with the fundamental business processes."
+		},
+		{
+		"courseName": "E2E100 - End-to-End Root Cause Analysis",
+		"courseDetails": "This course prepares users to perform End-to-End (E2E) root cause analysis to isolate the component causing the problem in a heterogeneous IT landscape by providing the knowledge on how to perform root cause analysis on a component level for ABAP and JAVA coding."
+		},
+		{
+		"courseName": "BC401 - ABAP objects",
+		"courseDetails": "This course provides an understanding of the details of procedural and object-oriented syntax elements in ABAP objects and how to use these effectively and also show how to create object-oriented models of business applications. On completion users are able to use fundamental elements of object-oriented modeling in UML, create ABAP object programs that contain all useful object-oriented programming techniques, use the relevant tools to create object-oriented Repository objects, describe and exploit a range of applications of ABAP objects."
+		},
+		{
+		"courseName": "BC400 - Introduction to the ABAP workbench",
+		"courseDetails": "This course introduces the ABAP programming language of SAP as well as its development environment, the ABAP Workbench. It focuses on concepts and fundamental principles of ABAP. On completion users will understand and use basic ABAP syntax elements, implement different types of user dialog, program read accesses to the database and use the ABAP Workbench development tools."
+		},		
+		{
+		"courseName": "TASU20 - ABAP Debugger",
+		"courseDetails": "This course shows how to use the ABAP debugger by providing knowledge on breakpoints, debugger layout, data objects, analysis of memory consumption of data objects & programs and also how to create and use debugger scripts."
+		},
+		{
+		"courseName": "TASU10 - Netweaver Application Server Fundamentals",
+		"courseDetails": "This course provides an introduction to working with the functions of the SAP NetWeaver Application Server. The SAP NetWeaver Application Server ABAP and Java is the central module of the SAP NetWeaver application platform. Understanding and mastering the functions of the SAP Netweaver Application Server provides the ability to understand the technical basis of all SAP Business Suite solutions that are based on SAP NetWeaver Application Server."
+		}
+	]
+	
+}

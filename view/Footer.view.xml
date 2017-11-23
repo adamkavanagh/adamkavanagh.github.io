@@ -1,0 +1,40 @@
+<mvc:View
+		xmlns:l="sap.ui.layout"
+		xmlns="sap.m"
+		xmlns:mvc="sap.ui.core.mvc">
+		
+			<Toolbar id="FooterText"
+					 class="sapUiResponsiveMargin"
+			         width="auto">
+				<Title text="{i18n>referees}"/>
+				<ToolbarSpacer/>
+			</Toolbar>	
+
+		<Panel id="Footer"
+			  class="sapUiResponsiveMargin"
+			  width="auto">
+			<content>
+				<l:VerticalLayout id="refereeList"
+								  width="60em"
+								  binding="{ path : 'referee>/Referees'}">
+					<Text text = "{referee>0/Name}" />
+					<Text text = "{referee>0/Address1}" />
+					<Text text = "{referee>0/Address2}" />
+					<Text text = "{referee>0/Address3}" />
+					<Text text = "{referee>0/Address4}" />
+					<Link href = "{referee>0/Email}" text = "{referee>0/EmailText}"/>
+					<Text/>
+					<ToolbarSpacer/>
+			    </l:VerticalLayout>
+				<l:VerticalLayout class="sapUiSmallMarginEnd"
+								  binding="{ path : 'referee>/Referees'}">
+					<Text text = "{referee>1/Name}" />
+					<Text text = "{referee>1/Address1}" />
+					<Text text = "{referee>1/Address2}" />
+					<Text text = "{referee>1/Address3}" />
+					<Text text = "{referee>1/Address4}" />
+					<Link href = "{referee>1/Email}" text = "{referee>1/EmailText}"/>
+			    </l:VerticalLayout>
+			</content>
+		</Panel>
+</mvc:View>

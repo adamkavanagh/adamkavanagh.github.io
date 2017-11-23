@@ -1,0 +1,45 @@
+<mvc:View
+		controllerName="sap.ui.demo.wt.controller.EducationList"
+		xmlns="sap.m"
+		xmlns:mvc="sap.ui.core.mvc">
+	<Table
+		id="EducationList"
+		class="sapUiResponsiveMargin"
+		width="auto"
+		items="{ path : 'education>/Educations'}">
+		<headerToolbar>
+			<Toolbar>
+				<Title text="{i18n>educationListTitle}"/>
+				<ToolbarSpacer/>
+			</Toolbar>
+		</headerToolbar>
+		<columns>
+			<Column
+				hAlign="Start"
+				minScreenWidth="Small"
+				demandPopin="true"
+				width="20em">
+				<Text text="{i18n>columnCourse}"/>
+			</Column>
+			<Column>
+				<Text text="{i18n>columnInstitute}"/>
+			</Column>
+			<Column
+				hAlign="End">
+				<Text text="{i18n>columnResult}"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem
+				type="Navigation"
+				press="onPress">
+				<cells>
+					<ObjectIdentifier title="{education>Course}"/>
+					<ObjectNumber number="{education>Institute}" emphasized="false"/>
+					<ObjectIdentifier title="{education>Result}"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+
+</mvc:View>

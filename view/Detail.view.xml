@@ -1,0 +1,31 @@
+<mvc:View
+	controllerName="sap.ui.demo.wt.controller.Detail"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		title="{i18n>detailPageTitle}"
+		showNavButton="true"
+		navButtonPress="onNavBack">
+		<ObjectHeader
+			title="{education>Course}">
+		<attributes>
+		<ObjectAttribute title="{education>Course_date}"/>
+		</attributes>
+		</ObjectHeader>
+			
+			<ObjectListItem
+			responsive="true"
+			fullScreenOptimized="true"			
+			intro="{i18n>titleLanguages}:"
+			title="{education>Languages}"
+			></ObjectListItem>
+			
+			<ObjectListItem
+			responsive="true"
+			fullScreenOptimized="true"						
+			intro="{i18n>finalYearProject}:"
+			title="{education>Final_Year_Project}"
+			></ObjectListItem>
+			
+	</Page>
+</mvc:View>
