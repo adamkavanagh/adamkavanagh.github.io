@@ -8,7 +8,7 @@ sap.ui.define([
 		onPress: function (oEvent) {
 			var oItem = oEvent.getSource();
 			var test1 = oItem.getBindingContext("education").getPath();
-			if(test1.includes("Educations/0"))
+			if(test1.indexOf("Educations/0")>=0)
 			{			
 				var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 				oRouter.navTo("SAPDetail", {
