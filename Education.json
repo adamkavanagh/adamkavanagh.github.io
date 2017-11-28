@@ -6,7 +6,9 @@
 			"Course_date": "2005-present",
 			"Result": "All completed successfully",
 			"Languages": "TASU10, TASU20, UE2E10 root cause analysis, USE011 earlywatch, UNA/10 integration training, TZCA08 Integrations workshop, BC100, BC401, BC400, ABAP silver certification, Success Factors performance management, In-Memory Data Management, mandatory compliance training",
-			"Final_Year_Project": ""
+			"Final_Year_Project": "",
+			"FYP_Details": "",
+			"FYP_Bullets": [{}]
 		},
 		{
 			"Institute": "DIT Kevin st",
@@ -14,7 +16,19 @@
 			"Course_date": "2004-2005",
 			"Result": "First Class Honours",
 			"Languages": "Java, Javascript, Embedded Visual C++, Oracle, SQL, MS Access, JSP, JSF, ASP, HTML",
-			"Final_Year_Project": "Music Transcription & melody Retrieval of traditional music on a PDA"
+			"Final_Year_Project": "Music Transcription & melody Retrieval of traditional music on a PDA",
+			"FYP_Details": "Successfully designed, developed and tested an application that allowed a user to play a small amount of musical notes into the microphone of a PDA and had it automatically transcribe the notes. It then searched files for the notes of that particular tune and displayed the entire notes of a matching song back to the user. This project involved the implementation of three stages, each of which had their own objective: ",
+			"FYP_Bullets": [
+				{
+				"Bullet": "1. Obtaining audio data – This stage involved accessing the microphone on the PDA and recording a tune played in by the user. However this presented most of the problems in the project, leading to another approach in obtaining audio data. The solution allowed the application to obtain the audio data through wav files."		
+				},
+				{
+				"Bullet": "2. Transcribing audio data – This was the most complex part of the project and involved using digital signal processing algorithms to complete it. The solution used a Short Term Fourier Transform algorithm to automatically transcribe the audio data."
+				},
+				{
+				"Bullet": "3. Melody Retrieval – This stage involved using a recursive search algorithm using the contour of the transcribed data to locate a suitable match in the musical files to the user input. It also involved parsing the musical notes from the files containing them."
+				}
+			]
 		},
 		{
 			"Institute": "DIT Kevin st",
@@ -22,7 +36,23 @@
 			"Course_date": "2002-2004",
 			"Result": "Merit - Upper Division",
 			"Languages": "Java, Javascript, Embedded Visual C++, Oracle, SQL, MS Access, JSP, JSF, ASP, HTML",
-			"Final_Year_Project": "Web Page accessability application"
+			"Final_Year_Project": "Web Page accessability application",
+			"FYP_Details": "Successfully designed, developed and tested an application that altered how a web page looked to make it more accessible in accordance to a users needs. This was accomplished by: ",
+			"FYP_Bullets": [
+				{
+				"Bullet": "1. Researching numerous ways and techniques in implementing web accessibility."		
+				},
+				{
+				"Bullet": "2. Designing the front end of the application and numerous style sheets in experimenting with accessibility"
+				},
+				{
+				"Bullet": "3. Researching how temporary internet files operate."
+				},
+				{
+				"Bullet": "4. Importing and mastering a third party HTML parser."
+				}
+				
+			]
 		},
 		{
 			"Institute": "Potobello College",
@@ -30,7 +60,19 @@
 			"Course_date": "2000-2002",
 			"Result": "Merit - Grade 1",
 			"Languages": "C, Java, Visual Basic, SQL",
-			"Final_Year_Project": "Sales & Stock control system"
+			"Final_Year_Project": "Sales & Stock control system",
+			"FYP_Details": "The purpose of this project was to take an existing sales & stock control system and create a more user friendly and efficient system. This was accomplished by: ",
+			"FYP_Bullets": [
+				{
+				"Bullet": "1. Carrying out a feasibility study on the project."		
+				},
+				{
+				"Bullet": "2. Designing and coding the user interface through visual basic."		
+				},
+				{
+				"Bullet": "3. Designing database using Microsoft Access for use with the interface."
+				}
+			]
 		}
 	]
 }
