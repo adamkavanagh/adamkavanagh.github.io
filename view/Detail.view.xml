@@ -24,8 +24,59 @@
 			responsive="true"
 			fullScreenOptimized="true"						
 			intro="{i18n>finalYearProject}:"
-			title="{education>Final_Year_Project}"
+			title="{education>Final_Year_Project}"			
 			></ObjectListItem>
-			
+
+	<Table
+		id="FYPDetails"
+		class="sapUiResponsiveMargin"
+		width="auto"
+		>
+		<headerToolbar>
+			<Toolbar>
+				<Title text="{i18n>fypDetails}"/>
+				<ToolbarSpacer/>
+			</Toolbar>
+		</headerToolbar>
+		<columns>
+			<Column
+			responsive="true"
+			fullScreenOptimized="true">				
+			</Column>	
+		</columns>
+		<items>
+			<ColumnListItem
+			responsive="true"
+			fullScreenOptimized="true">
+				<cells>
+					<ObjectIdentifier text="{education>FYP_Details}"/>
+				</cells>
+			</ColumnListItem>
+		</items>				
+	</Table>		
+	
+	<Table
+		id="FYPBullets"
+		class="sapUiResponsiveMargin"
+		width="auto"
+		items="{ path : 'education>FYP_Bullets'}">
+		<columns>
+			<Column
+			responsive="true"
+			fullScreenOptimized="true">				
+			</Column>	
+		</columns>
+		<items>
+			<ColumnListItem
+			responsive="true"
+			fullScreenOptimized="true">
+				<cells>
+					<ObjectIdentifier text="{education>Bullet}"/>
+				</cells>
+			</ColumnListItem>
+		</items>				
+	</Table>			
+
+	
 	</Page>
 </mvc:View>
