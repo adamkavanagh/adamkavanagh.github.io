@@ -1,9 +1,36 @@
 {
 	"Employments": [
+
+	{
+		"company": "SAP GSC Ireland",
+		"position": "Machine Manufacturing Analytics fellowship",
+		"date" : "2017 - present",
+			"keyResponsibilities": [
+									{
+									"keyRes" : "Develop & maintain frontend and backend coding using SAPUI5, Javascript and SQLScript. Any required changes or upgrades to core coding were done through the use of eclipse development environment while versioning was controlled with the use of GIT, MAVEN and Jenkins"
+									},
+									{
+									"keyRes" : "Developed the entire shell and UI for the MMA-LITE functionality. This was a concept functionality to provide a cloud version of the MMA program."
+									},									
+									{
+									"keyRes" : "Take part and contribute in agile development (Scrum) meetings. Daily meetings to discuss work completed and what work would be accomplished during the day as part of the scrum methodology."
+									},
+									{
+									"keyRes" : "As part of the scrum methodology, work was completed within time periods of 3 week sprints. Each sprint would be planned and discussed to estimate time needed for each piece of requested functionality. At the end of each sprint all work would be reviewed to determine what worked well during the sprint and also what did not work well to continuously improve knowledge and processes."
+									},
+									{
+									"keyRes" : "Fix any reported bugs in frontend and backend coding reported by the QA team. Any fixes / code changes were tested while liaising with the QA team to ensure expected system behavior."
+									},
+									{
+									"keyRes" : "Created Unit tests for any new stored procedures created for the backend through SQLscript. These were created with the use of the web IDE to bypass complete builds of the program to speed up development."
+									}
+						]
+
+        },
 		{
 		"company": "SAP GSC Ireland",
 		"position": "Senior Support Consultant / MM-IV Nexus",
-		"date" : "2005 - present",
+		"date" : "2005 - 2017",
 			"keyResponsibilities": [
 									{
 									"keyRes" : "Analyse and resolve customer incidents by means of knowledge databases (SAP Notes, solved customer incidents, documentation) and/or verifying customised entries or hardware parameters"
@@ -41,5 +68,6 @@
 																		
 								]
 		}
+
     ]
 }
