@@ -15,7 +15,7 @@
 		id="ResponsibilityList"
 		class="sapUiResponsiveMargin"
 		width="auto"
-		items="{ path : 'employment1>/Employments/0/keyResponsibilities'}">
+		items="{ path : 'employment>keyResponsibilities'}">
 		<headerToolbar>
 			<Toolbar>
 				<Title text="{i18n>responsibilityTitle}"/>
@@ -33,7 +33,7 @@
 			responsive="true"
 			fullScreenOptimized="true">
 				<cells>
-					<ObjectIdentifier text="{employment1>keyRes}"/>
+					<ObjectIdentifier text="{employment>keyRes}"/>
 				</cells>
 			</ColumnListItem>
 		</items>
