@@ -7,7 +7,7 @@
 		"date" : "2017 - present",
 			"keyResponsibilities": [
 									{
-									"keyRes" : "Develop & maintain frontend and backend coding using SAPUI5, Javascript and SQLScript. Any required changes or upgrades to core coding were done through the use of eclipse development environment while versioning was controlled with the use of GIT, MAVEN and Jenkins"
+									"keyRes" : "Develop & maintain frontend and backend coding using SAPUI5, Javascript and SQLScript. Any required changes or upgrades to core coding were done through the use of eclipse development environment while versioning was controlled with the use of GIT, Gerrit and Jenkins"
 									},
 									{
 									"keyRes" : "Developed the entire shell and UI for the MMA-LITE functionality. This was a concept functionality to provide a cloud version of the MMA program."
