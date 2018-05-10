@@ -1,6 +1,10 @@
 {
 	"SAPCourses": [
 		{
+		"courseName": "DS101 - Data Science 101",
+		"courseDetails":"A two day introductory course on Data science and how to use SAP Predictive Analytics. Topics included Data Preparation, Association & Recommendation analysis, Cluster Analysis, Regression Analysis. Practical exercises using SAP BusinessObjects Predictive analytics included running algorithms such as Decision Trees, Time Series Analysis and Neural Networks."
+		},		
+		{
 		"courseName": "In-Memory Data Management",
 		"courseDetails": "Prof. Hasso Plattner's successful introduction into the inner mechanics of this recent technology. The course focuses on the management of enterprise data in column-oriented in-memory databases. Latest hardware and software trends led to the development of a new revolutionary database technology that enables flexible and lightning-fast analysis of massive amounts of enterprise data. The basic concepts and design principles of this technology are explained in detail. Beyond that, the implications of the underlying design principles for future enterprise applications and their development are discussed. The differences and advantages of an in-memory column-oriented database in contrast to traditional row-oriented disk-based storages are explained in detail"
 		},
