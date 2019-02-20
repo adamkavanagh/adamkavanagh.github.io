@@ -1,13 +1,35 @@
 {
 	"Employments": [
+	{
+		"company": "SAP GSC Ireland",
+		"position": "Predictive Analytics Integrator - fellowship",
+		"date" : "May 2018 - November 2018",
+			"keyResponsibilities": [
+									{
+									"keyRes" : "Developed and maintained CDS views to expose ABAP Public API entities from the Predictive Analytics Repository."
+									},
+									{
+								    "keyRes" : "Developed numerous support programs for the QA team to test the PAi Public API methods."	
+									},
+									{
+								    "keyRes" : "Developed the PAi support transaction 'RS_ANA_PAI_PS01'. This transaction allows users any user without access to the FIORI app to view all the details of a predictive scenario. This was done through accessing the PAi API repository methods and displaying the results back to the user through different ALV lists selected from a node tree structure." 	
+									},
+									{
+									"keyRes" : "Helped resolve a number of bugs reported through JIRA for PAi"	
+									}
+									
+						]
+
+        },
+
 
 	{
 		"company": "SAP GSC Ireland",
-		"position": "Machine Manufacturing Analytics fellowship",
-		"date" : "2017 - 2018",
+		"position": "Machine Manufacturing Analytics - fellowship",
+		"date" : "January 2018 - April 2018",
 			"keyResponsibilities": [
 									{
-									"keyRes" : "Develop & maintain frontend and backend coding using SAPUI5, Javascript and SQLScript. Any required changes or upgrades to core coding were done through the use of eclipse development environment while versioning was controlled with the use of GIT, Gerrit and Jenkins"
+									"keyRes" : "Develop & maintain frontend and backend coding using SAPUI5, Javascript and SQLScript. Any required changes or upgrades to core coding were done through the use of eclipse development environment while versioning was controlled with the use of GIT, MAVEN and Jenkins"
 									},
 									{
 									"keyRes" : "Developed the entire shell and UI for the MMA-LITE functionality. This was a concept functionality to provide a cloud version of the MMA program."
@@ -60,7 +82,7 @@
 									"keyRes" : "Providing resolutions to critical customer issues as MM-IV nexus. For very high priority incidents or max attention customers, a high level of MM-IV knowledge is required. Remote sessions with customers and guiding them to resolution is provided through phone calls and screen sharing."
 									},
 									{
-									"keyRes" : "Design & development of Invoice Posting Logic supportability tool with ABAP coding. This also involves constant testing and developing improvements of the program on customers’ systems."
+									"keyRes" : "Design & development of Invoice Posting Logic supportability tool with ABAP coding. This also involves constant testing and developing improvements of the program on customersâ€™ systems."
 									},
 									{
 									"keyRes" : "Consult with development colleagues on trainings and supportability tool coding."
