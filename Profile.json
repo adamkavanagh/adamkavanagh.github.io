@@ -1,9 +1,7 @@
 {
-	"myProfile": [
-		{
-		"paragraph1": "I am highly skilled in the analysis and development of ABAP coding within ERP systems to provide resolutions to complex customer issues in the Materials Management component area. I am also proficient with SAPUI5, HTML5, Javascript and SQL along with development environments such as Eclipse and Hana Studio.",
+	"myProfile": [{
+		"paragraph1": "I am highly skilled in the analysis and development of ABAP coding within ERP systems to provide resolutions to complex customer issues in the Materials Management component area. I am also proficient with SAPUI5, HTML5, Javascript and SQL along with development environments such as SAP Web IDE, Eclipse and Hana Studio.",
 		"paragraph2": "I have a talent for analyzing the technical aspect of customer issues which is pivotal in supporting software that is constantly evolving. It is through this talent I have extensive ability in debugging coding and learning new technologies in a timely manner.",
 		"paragraph3": "Effective communication is also a key asset of mine, including the production of high quality training material to colleagues in a clear concise manner."
-		}
-	]
+	}]
 }

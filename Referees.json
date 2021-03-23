@@ -1,23 +1,21 @@
 {
-  "Referees": [
-	{
-	  "Name": "Eileen Maye",
-	  "Address1": "SAP GSC Ireland",
-	  "Address2": "1012-1014 Kingswood Avenue",
-	  "Address3": "Citywest Business campus",
-	  "Address4": "Dublin 24.",
-	  "EmailText": "Eileen.maye@sap.com",
-	  "Email": "mailto:Eileen.Maye@sap.com"		
-	},
-	{
-	  "Name": "Siobhan Evans",
-	  "Address1": "SAP GSC Ireland",
-	  "Address2": "1012-1014 Kingswood Avenue",
-	  "Address3": "Citywest Business campus",
-	  "Address4": "Dublin 24.",
-	  "EmailText": "Siobhan.evans@sap.com",
-	  "Email": "mailto:Siobhan.evans@sap.com"
-	}
+	"Referees": [{
+			"Name": "Ruth Reilly",
+			"Address1": "SAP GSC Ireland",
+			"Address2": "1012-1014 Kingswood Avenue",
+			"Address3": "Citywest Business campus",
+			"Address4": "Dublin 24.",
+			"EmailText": "Ruth.reilly@sap.com",
+			"Email": "mailto:Ruth.reilly@sap.com"
+		}, {
+			"Name": "Eileen Maye",
+			"Address1": "SAP GSC Ireland",
+			"Address2": "1012-1014 Kingswood Avenue",
+			"Address3": "Citywest Business campus",
+			"Address4": "Dublin 24.",
+			"EmailText": "Eileen.maye@sap.com",
+			"Email": "mailto:Eileen.Maye@sap.com"
+		}
 
-  ]
+	]
 }
