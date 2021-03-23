@@ -1,55 +1,31 @@
-<mvc:View
-		controllerName="sap.ui.demo.wt.controller.HelloPanel"
-		xmlns:l="sap.ui.layout"
-		xmlns="sap.m"
-		xmlns:mvc="sap.ui.core.mvc">
-		
-			<Toolbar
-			class="sapUiResponsiveMargin"
-			responsive="true"
-			fullScreenOptimized="true">
-				<Title 
-				responsive="true"
-				fullScreenOptimized="true"							
-				text="{i18n>contactName}"/>
-			</Toolbar>		
-		<Panel id="HelloPanel"
-			  class="sapUiResponsiveMargin"
-			  width="auto">
-			<content>
-				<l:VerticalLayout id="contactDetails"
-								responsive="true"
-								fullScreenOptimized="true"			
-								binding="{ path : 'contact>/myContactDetails'}">
-					<Text text = "{contact>0/address1}" />
-					<Text text = "{contact>0/address2}" />
-					<Text text = "{contact>0/address3}" />
-					<Text text = "{contact>0/address4}" />
-					<Text text = "{contact>0/phone}" />
-					<Link href = "{contact>0/email}" text = "{contact>0/emailText}"/>
-					<Text/>
-					<ToolbarSpacer/>
-			    </l:VerticalLayout>
-			</content>
-		</Panel>
-
-		<Panel id="ProfilePanel"
-			  class="sapUiResponsiveMargin"
-			  width="auto">
-			<content>
-				<l:VerticalLayout id="profileDetails"
-								responsive="true"
-								fullScreenOptimized="true"			
-								binding="{ path : 'profile>/myProfile'}">
-					<Text text = "{profile>0/paragraph1}" />
-					<Text/>
-					<Text text = "{profile>0/paragraph2}" />
-					<Text/>
-					<Text text = "{profile>0/paragraph3}" />					
-					<ToolbarSpacer/>
-			    </l:VerticalLayout>
-			</content>
-		</Panel>		
-		
-			
+<mvc:View controllerName="sap.ui.demo.wt.controller.HelloPanel" xmlns:l="sap.ui.layout" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<Toolbar class="sapUiResponsiveMargin">
+		<Title text="{i18n>contactName}"/>
+	</Toolbar>
+	<Panel id="HelloPanel" class="sapUiResponsiveMargin" width="auto">
+		<content>
+			<l:VerticalLayout id="contactDetails" binding="{ path : 'contact>/myContactDetails'}">
+				<Text text="{contact>0/address1}"/>
+				<Text text="{contact>0/address2}"/>
+				<Text text="{contact>0/address3}"/>
+				<Text text="{contact>0/address4}"/>
+				<Text text="{contact>0/phone}"/>
+				<Link href="{contact>0/email}" text="{contact>0/emailText}"/>
+				<Text/>
+				<ToolbarSpacer/>
+			</l:VerticalLayout>
+		</content>
+	</Panel>
+	<Panel id="ProfilePanel" class="sapUiResponsiveMargin" width="auto">
+		<content>
+			<l:VerticalLayout id="profileDetails" binding="{ path : 'profile>/myProfile'}">
+				<Text text="{profile>0/paragraph1}"/>
+				<Text/>
+				<Text text="{profile>0/paragraph2}"/>
+				<Text/>
+				<Text text="{profile>0/paragraph3}"/>
+				<ToolbarSpacer/>
+			</l:VerticalLayout>
+		</content>
+	</Panel>
 </mvc:View>

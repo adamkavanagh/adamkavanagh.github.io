@@ -1,44 +1,23 @@
-<mvc:View
-	controllerName="sap.ui.demo.wt.controller.Detail1"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
-	<Page
-		title="{i18n>detailPageTitle1}"
-		showNavButton="true"
-		navButtonPress="onNavBack">
-		<ObjectHeader
-			intro="{employment>company}"
-			title="{employment>position}"
-			/>
-			
-	<Table
-		id="ResponsibilityList"
-		class="sapUiResponsiveMargin"
-		width="auto"
-		items="{ path : 'employment>keyResponsibilities'}">
-		<headerToolbar>
-			<Toolbar>
-				<Title text="{i18n>responsibilityTitle}"/>
-				<ToolbarSpacer/>
-			</Toolbar>
-		</headerToolbar>
-		<columns>
-			<Column
-			responsive="true"
-			fullScreenOptimized="true">				
-			</Column>
-		</columns>
-		<items>
-			<ColumnListItem
-			responsive="true"
-			fullScreenOptimized="true">
-				<cells>
-					<ObjectIdentifier text="{employment>keyRes}"/>
-				</cells>
-			</ColumnListItem>
-		</items>
-	</Table>			
+<mvc:View controllerName="sap.ui.demo.wt.controller.Detail1" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<Page title="{i18n>detailPageTitle1}" showNavButton="true" navButtonPress="onNavBack">
+		<ObjectHeader intro="{employment>company}" title="{employment>position}"/>
+		<Table id="ResponsibilityList" class="sapUiResponsiveMargin" width="auto" items="{ path : 'employment>keyResponsibilities'}">
+			<headerToolbar>
+				<Toolbar>
+					<Title text="{i18n>responsibilityTitle}"/>
+					<ToolbarSpacer/>
+				</Toolbar>
+			</headerToolbar>
+			<columns>
+				<Column></Column>
+			</columns>
+			<items>
+				<ColumnListItem>
+					<cells>
+						<ObjectIdentifier text="{employment>keyRes}"/>
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
 	</Page>
-	
-	
 </mvc:View>

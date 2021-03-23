@@ -1,42 +1,23 @@
-<mvc:View
-	controllerName="sap.ui.demo.wt.controller.sapCourseDetails"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
-	<Page
-		title="{i18n>sapCoursePageTitle}"
-		showNavButton="true"
-		navButtonPress="onNavBack">
-		<ObjectHeader			
-			title="{sapEducation>courseName}"
-			/>
-			
-	<Table
-		id="SAPCourseDetail"
-		class="sapUiResponsiveMargin"
-		width="auto">
-		<headerToolbar>
-			<Toolbar>
-				<Title text="{i18n>courseDetails}"/>
-				<ToolbarSpacer/>
-			</Toolbar>
-		</headerToolbar>
-		<columns>
-			<Column
-			responsive="true"
-			fullScreenOptimized="true">				
-			</Column>
-		</columns>
-		<items>
-			<ColumnListItem
-			responsive="true"
-			fullScreenOptimized="true">
-				<cells>
-					<ObjectIdentifier text="{sapEducation>courseDetails}"/>
-				</cells>
-			</ColumnListItem>
-		</items>
-	</Table>			
+<mvc:View controllerName="sap.ui.demo.wt.controller.sapCourseDetails" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<Page title="{i18n>sapCoursePageTitle}" showNavButton="true" navButtonPress="onNavBack">
+		<ObjectHeader title="{sapEducation>courseName}"/>
+		<Table id="SAPCourseDetail" class="sapUiResponsiveMargin" width="auto">
+			<headerToolbar>
+				<Toolbar>
+					<Title text="{i18n>courseDetails}"/>
+					<ToolbarSpacer/>
+				</Toolbar>
+			</headerToolbar>
+			<columns responsive="true" fullScreenOptimized="true">
+				<Column></Column>
+			</columns>
+			<items responsive="true" fullScreenOptimized="true">
+				<ColumnListItem>
+					<cells>
+						<ObjectIdentifier text="{sapEducation>courseDetails}"/>
+					</cells>
+				</ColumnListItem>
+			</items>
+		</Table>
 	</Page>
-	
-	
 </mvc:View>
