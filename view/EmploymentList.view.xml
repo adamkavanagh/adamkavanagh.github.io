@@ -7,7 +7,7 @@
 			</Toolbar>
 		</headerToolbar>
 		<columns>
-			<Column hAlign="Begin" minScreenWidth="Small" demandPopin="true" width="20em">
+			<Column hAlign="Begin" minScreenWidth="Small" demandPopin="true" width="20em" visible="{= !${device>/system/phone}}">
 				<Text text="{i18n>columnCompany}"/>
 			</Column>
 			<Column>
@@ -20,7 +20,7 @@
 		<items>
 			<ColumnListItem type="Navigation" press="onPress">
 				<cells>
-					<ObjectIdentifier title="{employment>company}"/>
+					<ObjectIdentifier title="{employment>company}" visible="{= !${device>/system/phone}}"/>
 					<ObjectNumber number="{employment>date}" emphasized="false"/>
 					<ObjectIdentifier title="{employment>position}"/>
 				</cells>
