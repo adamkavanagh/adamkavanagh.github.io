@@ -10,7 +10,7 @@ sap.ui.define([
 		},
 
 		onPagePatternMatched: function () {
-			this.byId("overview").scrollTo(0);
+			this.byId("overviewPage").scrollTo(0, 0);
 		}
 
 	});

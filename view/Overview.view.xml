@@ -1,5 +1,5 @@
 <mvc:View controllerName="sap.ui.demo.wt.controller.Overview" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
-	<Page title="{i18n>helloPanelTitle}" enableScrolling="true" id="overview">
+	<Page title="{i18n>helloPanelTitle}" enableScrolling="true" id="overviewPage">
 		<content>
 			<mvc:XMLView viewName="sap.ui.demo.wt.view.HelloPanel"/>
 			<mvc:XMLView viewName="sap.ui.demo.wt.view.EmploymentList"/>
