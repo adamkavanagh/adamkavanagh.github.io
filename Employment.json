@@ -2,11 +2,11 @@
 	"Employments": [{
 			"company": "SAP GSC Ireland",
 			"position": "Product Support Travel and Budget Request App - project",
-			"date": "May 2021 - present",
+			"date": "May 2021 - Present",
 			"keyResponsibilities": [{
 					"keyRes": "Developed & maintained frontend and backend coding through UI5 and Sails.js."
 				}, {
-					"keyRes": "Coded all fronted and backend through VS code"
+					"keyRes": "Coded all frontend and backend through VS code"
 				}, {
 					"keyRes": "Designed and developed all frontend pages and dialogs"
 				}, {
@@ -73,7 +73,7 @@
 		}, {
 			"company": "SAP GSC Ireland",
 			"position": "Senior Support Consultant / MM-IV Nexus",
-			"date": "2005 - present",
+			"date": "2005 - Present",
 			"keyResponsibilities": [{
 					"keyRes": "Analyse and resolve customer incidents by means of knowledge databases (SAP Notes, solved customer incidents, documentation) and/or verifying customised entries or hardware parameters"
 				}, {
