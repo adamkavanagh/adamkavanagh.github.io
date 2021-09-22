@@ -1,18 +1,22 @@
 {
 	"Referees": [{
 			"Name": "Ruth Reilly",
-			"Address1": "SAP GSC Ireland",
-			"Address2": "1012-1014 Kingswood Avenue",
-			"Address3": "Citywest Business campus",
-			"Address4": "Dublin 24.",
+			"Title": "Support Team Manager",
+			"Address1": "SC Ireland & UK",
+			"Address2": "SAP SSC (Ireland) Ltd",
+			"Address3": "1012-1014 Kingswood Avenue",
+			"Address4": "Citywest Business campus",
+			"Address5": "Dublin 24.",
 			"EmailText": "Ruth.reilly@sap.com",
 			"Email": "mailto:Ruth.reilly@sap.com"
 		}, {
 			"Name": "Eileen Maye",
-			"Address1": "SAP GSC Ireland",
-			"Address2": "1012-1014 Kingswood Avenue",
-			"Address3": "Citywest Business campus",
-			"Address4": "Dublin 24.",
+			"Title": "Support Team Manager",
+			"Address1": "SC Ireland & UK",
+			"Address2": "SAP SSC (Ireland) Ltd",
+			"Address3": "1012-1014 Kingswood Avenue",
+			"Address4": "Citywest Business campus",
+			"Address5": "Dublin 24.",
 			"EmailText": "Eileen.maye@sap.com",
 			"Email": "mailto:Eileen.Maye@sap.com"
 		}
