@@ -9,6 +9,7 @@
 				<Text text="{contact>0/address2}"/>
 				<Text text="{contact>0/address3}"/>
 				<Text text="{contact>0/address4}"/>
+				<Text text="{contact>0/address5}"/>
 				<Text text="{contact>0/phone}"/>
 				<Link href="{contact>0/email}" text="{contact>0/emailText}"/>
 				<Text/>
