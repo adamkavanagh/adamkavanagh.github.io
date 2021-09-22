@@ -1,7 +1,7 @@
 {
 	"Employments": [{
 			"company": "SAP GSC Ireland",
-			"position": "Product Support Travel and Budget Request App - project",
+			"position": "Product Support Travel and Budget Request App - Project",
 			"date": "May 2021 - Present",
 			"keyResponsibilities": [{
 					"keyRes": "Developed & maintained frontend and backend coding through UI5 and Sails.js."
@@ -18,7 +18,7 @@
 		},
 		{
 			"company": "SAP GSC Ireland",
-			"position": "Customer Incident Management Renovation - fellowship",
+			"position": "Customer Incident Management Renovation - Fellowship",
 			"date": "March 2019 - December 2020",
 			"keyResponsibilities": [{
 					"keyRes": "Developed & maintained frontend coding through UI5 and Javascript. All required new developments or corrections requested through SAP JIRA were developed through the SAP Web IDE and pushed to the development environment branch in the CIMR Github repository."
@@ -36,7 +36,7 @@
 
 		{
 			"company": "SAP GSC Ireland",
-			"position": "Predictive Analytics Integrator - fellowship",
+			"position": "Predictive Analytics Integrator - Fellowship",
 			"date": "May 2018 - November 2018",
 			"keyResponsibilities": [{
 					"keyRes": "Developed and maintained CDS views to expose ABAP Public API entities from the Predictive Analytics Repository."
@@ -54,7 +54,7 @@
 
 		{
 			"company": "SAP GSC Ireland",
-			"position": "Machine Manufacturing Analytics - fellowship",
+			"position": "Machine Manufacturing Analytics - Fellowship",
 			"date": "January 2018 - April 2018",
 			"keyResponsibilities": [{
 				"keyRes": "Develop & maintain frontend and backend coding using SAPUI5, Javascript and SQLScript. Any required changes or upgrades to core coding were done through the use of eclipse development environment while versioning was controlled with the use of GIT, MAVEN and Jenkins"
