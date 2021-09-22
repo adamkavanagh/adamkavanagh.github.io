@@ -21,9 +21,9 @@
 			"position": "Customer Incident Management Renovation - Fellowship",
 			"date": "March 2019 - December 2020",
 			"keyResponsibilities": [{
-					"keyRes": "Developed & maintained frontend coding through UI5 and Javascript. All required new developments or corrections requested through SAP JIRA were developed through the SAP Web IDE and pushed to the development environment branch in the CIMR Github repository."
+					"keyRes": "Developed & maintained frontend coding through UI5 and JavaScript. All required new developments or corrections requested through SAP JIRA were developed through the SAP Web IDE and pushed to the development environment branch in the CIMR Github repository."
 				}, {
-					"keyRes": "Created corresponding unit tests for every javascript function developed."
+					"keyRes": "Created corresponding unit tests for every javaScript function developed."
 				}, {
 					"keyRes": "Created and maintained analytical reports through SAP Web Analytics. Custom events were coded throughout the project at the request of the project stakeholders. These custom events were then used within SWA to gain valuable insights into customer behavior with the Incident Creation form in the launchpad."
 				}, {
