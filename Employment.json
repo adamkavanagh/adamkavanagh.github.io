@@ -28,6 +28,8 @@
 					"keyRes": "Created and maintained analytical reports through SAP Web Analytics. Custom events were coded throughout the project at the request of the project stakeholders. These custom events were then used within SWA to gain valuable insights into customer behavior with the Incident Creation form in the launchpad."
 				}, {
 					"keyRes": "Developments throughout the project included: \n • Integrating live chat and SaE channels into the incident creation form. \n • Integrating Support Log assistant functionality. \n • Support assistant enhancement features. \n • Simplified Categorization – Expert Areas. \n • Edit incident redesign and code refactoring. \n • SLA server side analysis. \n • Implementation of CNDP for Chinese customers. \n • Promototion of SAP media Channels within the incident creation form."
+				}, {
+					"keyRes": "Provided A Two day training course to SAP employees on UI5 coding, demonstrating page navigation, models & data binding and development with SAP Web IDE."
 				}
 
 			]
