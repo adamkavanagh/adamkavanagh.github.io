@@ -1,6 +1,11 @@
 {
 	"SAPCourses": [
 		{
+		"courseName": "Evolved Web Apps with SAPUI5",
+		"courseDetails":"A four week course going through key concepts required to develop professional Web apps. Key highlights of the course: \n • Evolved best practices and recommendations for app developers. \n • New SAPUI5 innovations (drag&drop, OData V4, XML composites). \n • Developer productivity tools and features in SAP Web IDE. \n • Optimizing apps with the UI5 tooling. \n • Configuring apps for SAP Fiori elements and SAP Fiori launchpad. \n • Adapting apps with SAPUI5 flexibility."
+		},		
+		
+		{
 		"courseName": "DS101 - Data Science 101",
 		"courseDetails":"A two day introductory course on Data science and how to use SAP Predictive Analytics. Topics included Data Preparation, Association & Recommendation analysis, Cluster Analysis, Regression Analysis. Practical exercises using SAP BusinessObjects Predictive analytics included running algorithms such as Decision Trees, Time Series Analysis and Neural Networks."
 		},		
