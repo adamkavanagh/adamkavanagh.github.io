@@ -2,10 +2,11 @@
 	"myContactDetails": [
 		{
 		"name": "Adam Kavanagh",
-		"address1": "SAP GSC Ireland,",
-		"address2": "1012-1014 Kingswood Avenue,",
-		"address3": "Citywest Business Campus,",
-		"address4": "Dublin 24.",
+		"address1": "SC Ireland & UK,",
+		"address2": "SAP SSC (Ireland) Ltd,",
+		"address3": "1012-1014 Kingswood Avenue,",
+		"address4": "Citywest Business Campus,",
+		"address5": "Dublin 24.",
 		"phone": "003531471-7116",
 		"emailText": "adam.kavanagh@sap.com",
 		"email": "mailto:adam.kavanagh@sap.com"
