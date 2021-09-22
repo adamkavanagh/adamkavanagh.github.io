@@ -1,6 +1,23 @@
 {
 	"Employments": [{
 			"company": "SAP GSC Ireland",
+			"position": "Product Support Travel and Budget Request App - project",
+			"date": "May 2021 - present",
+			"keyResponsibilities": [{
+					"keyRes": "Developed & maintained frontend and backend coding through UI5 and Sails.js."
+				}, {
+					"keyRes": "Coded all fronted and backend through VS code"
+				}, {
+					"keyRes": "Designed and developed all frontend pages and dialogs"
+				}, {
+					"keyRes": "Designed and developed backend structure and services to backend with use of Sails.js"
+				}
+
+			]
+
+		},
+		{
+			"company": "SAP GSC Ireland",
 			"position": "Customer Incident Management Renovation - fellowship",
 			"date": "March 2019 - December 2020",
 			"keyResponsibilities": [{
