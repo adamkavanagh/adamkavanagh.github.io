@@ -1,6 +1,23 @@
 {
 	"Employments": [{
 			"company": "SAP SC Ireland",
+			"position": "SAP4M£ - Project",
+			"date": "June 2021 - Present",
+			"keyResponsibilities": [{
+					"keyRes": "Developed & maintained all frontend coding through UI5 and Javascript."
+				}, {
+					"keyRes": "Coded all frontend and backend through IntelliJ IDEA"
+				}, {
+					"keyRes": "Developments throughout the project included: \n • Integrating SaE and SAM support channels into the SAP4ME platform through UI5 cards. \n • Contribution to the coding of the customer case list application. \n • Corrections of any coding bugs or errors. "
+				}, {
+					"keyRes": "Designed and developed backend structure and services to backend with use of Sails.js"
+				}
+
+			]
+
+		},		
+		{
+			"company": "SAP SC Ireland",
 			"position": "Product Support Travel and Budget Request App - Project",
 			"date": "May 2021 - Present",
 			"keyResponsibilities": [{
