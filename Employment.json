@@ -3,23 +3,25 @@
 			"company": "SAP SC Ireland",
 			"position": "SAP4ME - Project",
 			"date": "June 2021 - Present",
+      "description":"SAP4ME Enables SAP customers to interact with SAP, get immediate guidance to the best solutions for their business,\n access important alerts, metrics and insights about their SAP product portfolio from a single access point.",
 			"keyResponsibilities": [{
 					"keyRes": "Developed & maintained all frontend coding through UI5 and Javascript."
 				}, {
 					"keyRes": "Coded all frontend and backend through IntelliJ IDEA"
 				}, {
-					"keyRes": "Developments throughout the project included: \n • Integrating SaE and SAM support channels into the SAP4ME platform through UI5 cards. \n • Contribution to the coding of the customer case list application. \n • Corrections of any coding bugs or errors. "
+					"keyRes": "Developments throughout the project included: \n • Integrating SaE and SAM support channels into the SAP4ME platform through UI5 cards. \n • Designing and Developing a custom UI5 Calendar Control to display available SAE and SAM sessions. \n • Contribution to the coding of the customer case list application. \n • Corrections of any coding bugs or errors. "
 				}, {
-					"keyRes": "Designed and developed backend structure and services to backend with use of Sails.js"
+					"keyRes": "Created corresponding unit tests for every javaScript function developed."
 				}
 
 			]
 
-		},		
+		},
 		{
 			"company": "SAP SC Ireland",
 			"position": "Product Support Travel and Budget Request App - Project",
 			"date": "May 2021 - Present",
+      "description":"The Travel and Budget Request application is a full stack NodeJS application that allows SAP Product Support team managers \n to create travel and budget requests to be evaluated and approved by Product Family Heads and Portfolio Heads.",
 			"keyResponsibilities": [{
 					"keyRes": "Developed & maintained frontend and backend coding through UI5 and Sails.js."
 				}, {
@@ -35,8 +37,9 @@
 		},
 		{
 			"company": "SAP SC Ireland",
-			"position": "Customer Incident Management Renovation - Fellowship",
+			"position": "Customer Incident Management Renovation(CIMR) - Fellowship",
 			"date": "March 2019 - December 2020",
+      "description": "The CIMR project integrated extra support channels and service automation tools into the Customer Incident form that SAP customers \n use to create product support incidents. The project redesigned the whole incident creation form to be more intuitive for SAP customers \n while allowing them to use other channels of support such 'Schedule an Expert', 'Chat' and 'Schedule a Manager'.",
 			"keyResponsibilities": [{
 					"keyRes": "Developed & maintained frontend coding through UI5 and JavaScript. All required new developments or corrections requested through SAP JIRA were developed through the SAP Web IDE and pushed to the development environment branch in the CIMR Github repository."
 				}, {
@@ -56,6 +59,7 @@
 		{
 			"company": "SAP SC Ireland",
 			"position": "Predictive Analytics Integrator - Fellowship",
+      "description": "Predictive Analytics Integrator (PAi) is a component for binding predictive models from different sources to an application context \n and to manage their lifecycle. It provides a standard framework for Model consumption and Life Cycle Management for Hana Based Business \nApplications. It will lower the adoption barrier for SAP business Applications to enrich their applications using predictive models.",
 			"date": "May 2018 - November 2018",
 			"keyResponsibilities": [{
 					"keyRes": "Developed and maintained CDS views to expose ABAP Public API entities from the Predictive Analytics Repository."
@@ -74,6 +78,7 @@
 		{
 			"company": "SAP SC Ireland",
 			"position": "Machine Manufacturing Analytics - Fellowship",
+      "description": "Machine Manufacturing Analytics converted data gathered from CNC machines to create a 3D model of a machine part being produced. \n It would then show any defects of the manufactured part to improve on quality and production while also predicting when a CNC machine required maintenance.",
 			"date": "January 2018 - April 2018",
 			"keyResponsibilities": [{
 				"keyRes": "Develop & maintain frontend and backend coding using SAPUI5, JavaScript and SQLScript. Any required changes or upgrades to core coding were done through the use of eclipse development environment while versioning was controlled with the use of GIT, MAVEN and Jenkins"
