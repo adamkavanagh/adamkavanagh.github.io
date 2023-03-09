@@ -4,8 +4,13 @@
 
 html[dir="rtl"] .myAppResumeWT .myCustomButton.sapMBtn {
   margin-left: 0.125rem;
-  margin-right: 0 
+  margin-right: 0
 }
 .myAppResumeWT .myCustomText {
+  font-weight: bold;
+}
+
+.cvLargeText {
+  font-size: large;
   font-weight: bold;
 }
