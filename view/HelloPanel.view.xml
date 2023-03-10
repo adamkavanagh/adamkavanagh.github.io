@@ -25,6 +25,8 @@
 				<Text text="{profile>0/paragraph2}"/>
 				<Text/>
 				<Text text="{profile>0/paragraph3}"/>
+				<Text/>
+				<Text text="{profile>0/paragraph4}"/>				
 				<ToolbarSpacer/>
 			</l:VerticalLayout>
 		</content>
