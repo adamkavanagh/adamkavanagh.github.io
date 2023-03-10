@@ -1,7 +1,8 @@
 {
 	"myProfile": [{
-		"paragraph1": "I am highly skilled in the analysis and development of ABAP coding within ERP systems to provide resolutions to complex customer issues in the Materials Management component area. I am also skilled with SAPUI5, HTML5, JavaScript and SQL along with development environments such as Visual Studio Code, SAP Web IDE, Eclipse and Hana Studio.",
-		"paragraph2": "I have a talent for analyzing the technical aspect of customer issues which is pivotal in supporting software that is constantly evolving. It is through this talent I have extensive ability in debugging coding and learning new technologies in a timely manner.",
-		"paragraph3": "Effective communication is also a key asset of mine, including the production of high quality training material to colleagues in a clear concise manner."
+		"paragraph1": "Dynamic and multi-skilled individual with over 17 years diverse work experience in challenging technical roles. A Senior Solution Support Engineer for Product Support with expertise in the analysis and development of ABAP coding within ERP systems, providing resolutions to complex customer issues in S/4HANA Procurement - Invoice Verification component area. ",
+		"paragraph2": "Strong Analytical skills, with a proficiency for analysing the technical aspect of customer issues which is pivotal in supporting software that is constantly evolving. It is through this competency, that I have extensive ability in debugging code and learning new technologies in a timely manner.",
+		"paragraph3": "Effective communication is also a key asset of mine, including the production of high-quality technical training material for team members to improve knowledge and processes.",
+  	        "paragraph4": "I am also proficient in SAPUI5, HTML5, JavaScript, SQL and MongoDB along with development environments such as Visual Studio Code, SAP Web IDE, IntelliJ IDEA and Hana Studio."
 	}]
 }
